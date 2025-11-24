@@ -1,0 +1,10 @@
+[project]
+name = "sabig-devops-registry"
+version = "0.1.0"
+description = "Quote API for learning Container Registry"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+]
