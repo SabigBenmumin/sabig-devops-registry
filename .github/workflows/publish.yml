@@ -28,3 +28,6 @@ jobs:
                 context: .
                 push: true
                 tags: ghcr.io/sabigbenmumin/sabig-devops-registry:latest
+
+            - name: Trigger Render Deployment
+              run: curl "${{secrets.RENDER_DEPLOY_HOOK}}"
